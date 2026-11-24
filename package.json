@@ -1,0 +1,16 @@
+{
+  "name": "signal-map-kit",
+  "version": "1.0.0",
+  "description": "Weigh public building permits, zoning cases and sales, and count busy map areas in squares that split as you zoom.",
+  "type": "module",
+  "main": "index.js",
+  "exports": { ".": "./index.js", "./weight": "./src/weight.js", "./grid": "./src/grid.js" },
+  "files": ["index.js", "src"],
+  "scripts": { "test": "node --test", "example": "node examples/count.mjs" },
+  "engines": { "node": ">=18" },
+  "keywords": ["map", "maplibre", "geojson", "clustering", "building-permits", "web-mercator"],
+  "author": "Nicolas Roldos (https://nico-tek.com)",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/nicowave/signal-map-kit.git" },
+  "homepage": "https://nico-tek.com/open-forum/dmv-signal"
+}
